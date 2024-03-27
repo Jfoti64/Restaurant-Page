@@ -2,7 +2,7 @@ function populateAboutTab() {
     const body = document.querySelector('body');
 
     const content = document.createElement('div');
-    content.classList.add('content');
+    content.id = 'content';
     
     const contentP = document.createElement('p');
     contentP.innerHTML = 'Welcome to our restaurant page. This is some information content the restaurant blah blah blah.';
