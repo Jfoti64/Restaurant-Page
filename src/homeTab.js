@@ -28,7 +28,7 @@ function populateHomeTab() {
     infoRight.id = 'infoRight';
 
     const infoRightP = document.createElement('p');
-    infoRightP.innerHTML = 'Hours:';
+    infoRightP.innerHTML = 'Hours: 10AM-10PM';
 
     infoRight.appendChild(infoRightP);
     info.appendChild(infoRight);
@@ -38,7 +38,7 @@ function populateHomeTab() {
     infoLeft.id = 'infoLeft';
 
     const infoLeftP = document.createElement('p');
-    infoLeftP.innerHTML = 'Location:';
+    infoLeftP.innerHTML = 'Location: 1438 West Highland';
 
     infoLeft.appendChild(infoLeftP);
 

@@ -7,6 +7,29 @@ p, h3 {
     color: white;
 }
 
-#content {
-    
+body {
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+}
+
+#homeTab {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+
+header {
+    place-self: center;
+}
+
+#description {
+    grid-column: 1 / -1;
+    place-self: center;
+}
+
+#info {
+    place-items: center;
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-columns: repeat(2, 1fr);
 }
