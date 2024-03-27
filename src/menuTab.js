@@ -3,18 +3,18 @@ const body = document.querySelector('body');
 let menuItems = [
     {
         'name': 'Pizza',
-        'description': 'cheese, and pepperoni',
-        'price': '$4.99'
+        'description': 'Your choice of toppings. 8in, 12in, or 14in',
+        'price': '$14.99 / 21.99 / 26.99'
     },
     {
-        'name': 'Pizza',
-        'description': 'cheese, and pepperoni',
-        'price': '$4.99'
+        'name': 'Steak',
+        'description': 'With a side of fries or mashed potatoes',
+        'price': '$22.99'
     },
     {
-        'name': 'Pizza',
-        'description': 'cheese, and pepperoni',
-        'price': '$4.99'
+        'name': 'Gourmet Cheese Burger',
+        'description': 'Ketchup, lettuce, and grilled onions',
+        'price': '$13.99'
     }
 ];
 
