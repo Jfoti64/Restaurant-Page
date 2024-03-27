@@ -19,13 +19,13 @@ let menuItems = [
 ];
 
 function populateMenuTab() {
-    const menuContent = document.createElement('div');
-    menuContent.id = 'menuContent';
+    const content = document.createElement('div');
+    content.id = 'content';
 
-    body.appendChild(menuContent);
+    body.appendChild(content);
 
     menuItems.forEach(obj => {
-        createNewCard(obj, menuContent); // Pass menuContent as the parent element
+        createNewCard(obj, content); // Pass content as the parent element
     });
 }
 

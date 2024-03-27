@@ -1,4 +1,4 @@
-function populateContent() {
+function populateHomeTab() {
     const body = document.querySelector('body');
     
     const content = document.createElement('div');
@@ -42,4 +42,4 @@ function populateContent() {
     content.appendChild(info);
 }
 
-export { populateContent };
+export { populateHomeTab };

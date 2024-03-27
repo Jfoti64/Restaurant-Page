@@ -1,9 +1,16 @@
 import "./style.css";
-import { populateContent } from "./populateContent";
+import { populateHomeTab } from "./homeTab";
 import { populateMenuTab } from "./menuTab";
+import { populateAboutTab } from "./aboutTab";
 
-populateMenuTab();
+//populateAboutTab();
 
-populateContent();
+//populateMenuTab();
+
+//populateHomeTab();
+
+function clearDom() {
+
+}
 
 console.log('Test!');
