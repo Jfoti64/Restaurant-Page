@@ -4,6 +4,11 @@ function populateHomeTab() {
     const content = document.createElement('div');
     content.id = 'content';
 
+    const homeTab = document.createElement('div');
+    homeTab.id = 'homeTab';
+
+    content.appendChild(homeTab);
+
     body.appendChild(content);
 
     const description = document.createElement('div');
@@ -13,7 +18,7 @@ function populateHomeTab() {
     descriptionP.innerHTML = 'Welcome to our wonderful restaurant. We know you will enjoy our selection.';
     description.appendChild(descriptionP);
 
-    content.appendChild(description);
+    homeTab.appendChild(description);
 
 
     const info = document.createElement('div');
@@ -39,7 +44,7 @@ function populateHomeTab() {
 
     info.appendChild(infoLeft);
 
-    content.appendChild(info);
+    homeTab.appendChild(info);
 }
 
 export { populateHomeTab };
