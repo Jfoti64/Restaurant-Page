@@ -31,7 +31,10 @@ p, h3 {
     grid-template-columns: repeat(2, 1fr);
 }
 
-p, h3 {
+#homeTab p,
+#homeTab h3,
+#aboutTab p,
+#aboutTab h3 {
     background-color: var(--element-background-color);
     padding: 10px;
     border-radius: 10px;
@@ -76,4 +79,18 @@ nav button:hover {
     display: grid;
     grid-column: 1 / -1;
     grid-template-columns: repeat(2, 1fr);
+}
+
+#menu {
+    display: grid;
+    column-gap: 150px;
+    row-gap: 50px;
+    grid-template-columns: repeat(auto-fit, 250px);
+    place-content: center;
+}
+
+.item {
+    background-color: var(--element-background-color);
+    place-self: center;
+    text-align: center;
 }

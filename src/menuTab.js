@@ -1,5 +1,6 @@
 const body = document.querySelector('body');
 
+
 let menuItems = [
     {
         'name': 'Pizza',
@@ -15,18 +16,27 @@ let menuItems = [
         'name': 'Gourmet Cheese Burger',
         'description': 'Ketchup, lettuce, and grilled onions',
         'price': '$13.99'
+    },
+    {
+        'name': 'Gourmet Soft Pretzel',
+        'description': 'served with salt and mustard',
+        'price': '$12.99'
     }
 ];
 
 function populateMenuTab() {
     const content = document.createElement('div');
+    const menu = document.createElement('div');
     content.id = 'content';
+    menu.id = 'menu';
 
     body.appendChild(content);
+    content.appendChild(menu);
 
     menuItems.forEach(obj => {
-        createNewCard(obj, content); // Pass content as the parent element
+        createNewCard(obj, menu); // Pass content as the parent element
     });
+    console.log(menuItems);
 }
 
 function createNewCard(obj, parent) {
