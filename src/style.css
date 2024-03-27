@@ -85,7 +85,7 @@ nav button:hover {
     display: grid;
     column-gap: 150px;
     row-gap: 50px;
-    grid-template-columns: repeat(auto-fit, 250px);
+    grid-template-columns: repeat(auto-fit, 450px);
     place-content: center;
 }
 
@@ -93,4 +93,6 @@ nav button:hover {
     background-color: var(--element-background-color);
     place-self: center;
     text-align: center;
+    padding: 5px;
+    margin: 25px;
 }
