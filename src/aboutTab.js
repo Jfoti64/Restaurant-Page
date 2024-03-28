@@ -19,7 +19,7 @@ function populateAboutTab() {
 
     const aboutPhilosophyP = document.createElement('p');
     aboutPhilosophyP.innerHTML = "At Filano's, we believe that great food is not just about taste, but also about the artistry and passion that goes into every dish. Our talented chefs meticulously craft each meal using only the finest ingredients, ensuring every bite is a symphony of flavors.";
-    about.appendChild(aboutPhilosophyP);
+    aboutPhilosophy.appendChild(aboutPhilosophyP);
 
     const aboutOurCuisine = document.createElement('div');
     aboutOurCuisine.id = 'aboutOurCuisine';

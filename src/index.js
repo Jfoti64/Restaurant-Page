@@ -8,7 +8,7 @@ const menu = document.getElementById('menu');
 const about = document.getElementById('about');
 
 
-populateHomeTab();
+populateAboutTab();
 
 home.addEventListener('click', () => {
     clearDom();
