@@ -15,7 +15,7 @@ function populateHomeTab() {
     description.id = 'description';
 
     const descriptionP = document.createElement('p');
-    descriptionP.innerHTML = 'Welcome to our wonderful restaurant. We know you will enjoy our selection.';
+    descriptionP.innerHTML = "Welcome to Filano's. We know you will enjoy our selection.";
     description.appendChild(descriptionP);
 
     homeTab.appendChild(description);
