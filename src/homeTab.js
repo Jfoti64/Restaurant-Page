@@ -20,7 +20,6 @@ function populateHomeTab() {
 
     homeTab.appendChild(description);
 
-
     const info = document.createElement('div');
     info.id = 'info';
 
