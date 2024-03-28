@@ -5,13 +5,13 @@ function populateAboutTab() {
     content.id = 'content';
     body.appendChild(content);
 
-    const about = document.createElement('div');
-    about.id = 'about';
-    content.appendChild(about);
+    const aboutTab = document.createElement('div');
+    aboutTab.id = 'aboutTab';
+    content.appendChild(aboutTab);
     
     const aboutPhilosophy = document.createElement('div');
     aboutPhilosophy.id = 'aboutPhilosophy';
-    about.appendChild(aboutPhilosophy);
+    aboutTab.appendChild(aboutPhilosophy);
 
     const aboutPhilosophyH3 = document.createElement('h3');
     aboutPhilosophyH3.innerHTML = 'Our Philosophy'
@@ -23,7 +23,7 @@ function populateAboutTab() {
 
     const aboutOurCuisine = document.createElement('div');
     aboutOurCuisine.id = 'aboutOurCuisine';
-    about.appendChild(aboutOurCuisine);
+    aboutTab.appendChild(aboutOurCuisine);
 
     const aboutOurCuisineH3 = document.createElement('h3');
     aboutOurCuisineH3.innerHTML = 'Our Cuisine';
